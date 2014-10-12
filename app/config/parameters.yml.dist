@@ -2,10 +2,10 @@
 parameters:
     database_driver:   pdo_mysql
     database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     www_nulldevelopment_hr
+    database_port:     null
+    database_name:     dev_null_blog_app
     database_user:     root
-    database_password: ~
+    database_password: Example123
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
@@ -17,19 +17,19 @@ parameters:
     locale:            en
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            VerySecretKeyThatIWasSuggestedToChange
+    secret:            k676Rab8FRQ3
 
     debug_toolbar:          true
     debug_redirects:        false
     use_assetic_controller: true
 
-    app_name:          nulldevelopmenthr
-    application_base:  /var/www/sites/www.nulldevelopment.hr
-    app_domain:        www.nulldevelopment.hr
-    static_domain:     static.nulldevelopment.hr
-    img_domain:        img1.nulldevelopment.hr
-    img_domains: 
-      - img1.nulldevelopment.hr
+    app_name:          nullblogapp
+    application_base:  /var/www/sites/www.nullblogapp.loc
+    app_domain:        www.nullblogapp.loc
+    static_domain:     static.nullblogapp.loc
+    img_domain:        img1.nullblogapp.loc
+    img_domains:
+      - img1.nullblogapp.loc
 
 
 
